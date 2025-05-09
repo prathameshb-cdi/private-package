@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "PrivateLibrary"),
-        .binaryTarget(name: "SimpleFramework", path: "./Sources/PrivateLibrary/SimpleFramework.xcframework"),
+        .binaryTarget(name: "TestFramework", path: "./Sources/PrivateLibrary/TestFramework.xcframework"),
         .testTarget(
             name: "PrivateLibraryTests",
             dependencies: ["PrivateLibrary"]
