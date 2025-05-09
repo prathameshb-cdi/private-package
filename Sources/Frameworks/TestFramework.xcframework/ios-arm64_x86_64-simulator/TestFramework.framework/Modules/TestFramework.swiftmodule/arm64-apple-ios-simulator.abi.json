@@ -1,0 +1,64 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TestFramework",
+    "printedName": "TestFramework",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Hello",
+        "printedName": "Hello",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printHello",
+            "printedName": "printHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework5HelloC05printC0SSyF",
+            "mangledName": "$s13TestFramework5HelloC05printC0SSyF",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TestFramework5HelloC",
+        "mangledName": "$s13TestFramework5HelloC",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
