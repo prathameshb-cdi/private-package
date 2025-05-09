@@ -10,6 +10,27 @@
         "printedName": "Hello",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Hello",
+                "printedName": "TestFramework.Hello",
+                "usr": "s:13TestFramework5HelloC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TestFramework5HelloCACycfc",
+            "mangledName": "$s13TestFramework5HelloCACycfc",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "printHello",
             "printedName": "printHello()",
@@ -39,7 +60,6 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
