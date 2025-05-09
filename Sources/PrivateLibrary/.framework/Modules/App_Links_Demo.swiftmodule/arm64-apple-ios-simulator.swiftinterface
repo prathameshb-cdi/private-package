@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name App_Links_Demo
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+@_exported import App_Links_Demo
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct WebView : SwiftUI.UIViewRepresentable {
+  @_Concurrency.MainActor @preconcurrency public var url: Foundation.URL
+  @SwiftUICore.Binding @_projectedValueProperty($localStorage) @_Concurrency.MainActor @preconcurrency public var localStorage: Swift.String {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $localStorage: SwiftUICore.Binding<Swift.String> {
+    get
+  }
+  @SwiftUICore.Binding @_projectedValueProperty($hasSentDeviceData) @_Concurrency.MainActor @preconcurrency public var hasSentDeviceData: Swift.Bool {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $hasSentDeviceData: SwiftUICore.Binding<Swift.Bool> {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(url: Foundation.URL, localStorage: SwiftUICore.Binding<Swift.String>, hasSentDeviceData: SwiftUICore.Binding<Swift.Bool>, manager: App_Links_Demo.ContentManager = .shared)
+  @_Concurrency.MainActor @preconcurrency public func makeUIView(context: App_Links_Demo.WebView.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor @preconcurrency public func updateUIView(_ webView: WebKit.WKWebView, context: App_Links_Demo.WebView.Context)
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> App_Links_Demo.WebView.Coordinator
+  @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class Coordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+    @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = WebKit.WKWebView
+}
+@_hasMissingDesignatedInitializers public class ContentManager : Foundation.ObservableObject {
+  public static let shared: App_Links_Demo.ContentManager
+  @Combine.Published @_projectedValueProperty($device_uuid) public var device_uuid: Swift.String? {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $device_uuid: Combine.Published<Swift.String?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  @SwiftUI.AppStorage @_projectedValueProperty($firstLaunch) public var firstLaunch: Swift.Bool {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    _modify
+  }
+  public var $firstLaunch: SwiftUICore.Binding<Swift.Bool> {
+    get
+  }
+  public func sendDeviceData()
+  public func retrieveDefferedDeepLinks()
+  public func resolveShortURLtoFullURL(shortUrl: Swift.String)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+extension App_Links_Demo.WebView : Swift.Sendable {}
+extension App_Links_Demo.WebView.Coordinator : Swift.Sendable {}

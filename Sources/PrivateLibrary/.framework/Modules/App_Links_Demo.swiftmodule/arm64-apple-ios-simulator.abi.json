@@ -1,0 +1,4367 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "App_Links_Demo",
+    "printedName": "App_Links_Demo",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceInfo",
+        "printedName": "DeviceInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "os_version",
+            "printedName": "os_version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV10os_versionSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV10os_versionSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV10os_versionSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV10os_versionSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV10os_versionSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV10os_versionSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV10os_versionSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV10os_versionSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "manufacturer",
+            "printedName": "manufacturer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV12manufacturerSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV12manufacturerSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV12manufacturerSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV12manufacturerSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV12manufacturerSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV12manufacturerSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV12manufacturerSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV12manufacturerSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV5modelSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV5modelSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5modelSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5modelSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5modelSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5modelSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5modelSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5modelSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brand",
+            "printedName": "brand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV5brandSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV5brandSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5brandSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5brandSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5brandSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5brandSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV5brandSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV5brandSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "product",
+            "printedName": "product",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV7productSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV7productSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV7productSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV7productSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV7productSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV7productSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV7productSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV7productSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device",
+            "printedName": "device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV6deviceSSSgvp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV6deviceSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV6deviceSSSgvg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV6deviceSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV6deviceSSSgvs",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV6deviceSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV6deviceSSSgvM",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV6deviceSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(os_version:manufacturer:model:brand:product:device:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "App_Links_Demo.DeviceInfo",
+                "usr": "s:14App_Links_Demo10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo10DeviceInfoV10os_version12manufacturer5model5brand7product6deviceACSSSg_A5Jtcfc",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV10os_version12manufacturer5model5brand7product6deviceACSSSg_A5Jtcfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "App_Links_Demo.DeviceInfo",
+                "usr": "s:14App_Links_Demo10DeviceInfoV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo10DeviceInfoVACycfc",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoVACycfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "App_Links_Demo.DeviceInfo",
+                "usr": "s:14App_Links_Demo10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo10DeviceInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo10DeviceInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo10DeviceInfoV9hashValueSivp",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV9hashValueSivp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo10DeviceInfoV9hashValueSivg",
+                "mangledName": "$s14App_Links_Demo10DeviceInfoV9hashValueSivg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo10DeviceInfoV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV4hash4intoys6HasherVz_tF",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "App_Links_Demo.DeviceInfo",
+                "usr": "s:14App_Links_Demo10DeviceInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceInfo",
+                "printedName": "App_Links_Demo.DeviceInfo",
+                "usr": "s:14App_Links_Demo10DeviceInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo10DeviceInfoV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14App_Links_Demo10DeviceInfoV2eeoiySbAC_ACtFZ",
+            "moduleName": "App_Links_Demo",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14App_Links_Demo10DeviceInfoV",
+        "mangledName": "$s14App_Links_Demo10DeviceInfoV",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Payload",
+        "printedName": "Payload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "api_key",
+            "printedName": "api_key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV7api_keySSSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV7api_keySSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV7api_keySSSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV7api_keySSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device_id",
+            "printedName": "device_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV9device_idSSSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV9device_idSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV9device_idSSSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV9device_idSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device_info",
+            "printedName": "device_info",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "App_Links_Demo.DeviceInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceInfo",
+                    "printedName": "App_Links_Demo.DeviceInfo",
+                    "usr": "s:14App_Links_Demo10DeviceInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV11device_infoAA10DeviceInfoVSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV11device_infoAA10DeviceInfoVSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "App_Links_Demo.DeviceInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeviceInfo",
+                        "printedName": "App_Links_Demo.DeviceInfo",
+                        "usr": "s:14App_Links_Demo10DeviceInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV11device_infoAA10DeviceInfoVSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV11device_infoAA10DeviceInfoVSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platform",
+            "printedName": "platform",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV8platformSSSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV8platformSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV8platformSSSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV8platformSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lib",
+            "printedName": "lib",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV3libSSSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV3libSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV3libSSSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV3libSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lib_version",
+            "printedName": "lib_version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7PayloadV11lib_versionSSSgvp",
+            "mangledName": "$s14App_Links_Demo7PayloadV11lib_versionSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7PayloadV11lib_versionSSSgvg",
+                "mangledName": "$s14App_Links_Demo7PayloadV11lib_versionSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(api_key:device_id:device_info:platform:lib:lib_version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "App_Links_Demo.Payload",
+                "usr": "s:14App_Links_Demo7PayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "App_Links_Demo.DeviceInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeviceInfo",
+                    "printedName": "App_Links_Demo.DeviceInfo",
+                    "usr": "s:14App_Links_Demo10DeviceInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo7PayloadV7api_key9device_id0G5_info8platform3lib0K8_versionACSSSg_AjA10DeviceInfoVSgA3Jtcfc",
+            "mangledName": "$s14App_Links_Demo7PayloadV7api_key9device_id0G5_info8platform3lib0K8_versionACSSSg_AjA10DeviceInfoVSgA3Jtcfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Payload",
+                "printedName": "App_Links_Demo.Payload",
+                "usr": "s:14App_Links_Demo7PayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo7PayloadV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s14App_Links_Demo7PayloadV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo7PayloadV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s14App_Links_Demo7PayloadV6encode2toys7Encoder_p_tKF",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14App_Links_Demo7PayloadV",
+        "mangledName": "$s14App_Links_Demo7PayloadV",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebView",
+        "printedName": "WebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "manager",
+            "printedName": "manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContentManager",
+                "printedName": "App_Links_Demo.ContentManager",
+                "usr": "s:14App_Links_Demo14ContentManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV7managerAA14ContentManagerCvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV7managerAA14ContentManagerCvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentManager",
+                    "printedName": "App_Links_Demo.ContentManager",
+                    "usr": "s:14App_Links_Demo14ContentManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV7managerAA14ContentManagerCvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV7managerAA14ContentManagerCvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentManager",
+                    "printedName": "App_Links_Demo.ContentManager",
+                    "usr": "s:14App_Links_Demo14ContentManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV7managerAA14ContentManagerCvs",
+                "mangledName": "$s14App_Links_Demo7WebViewV7managerAA14ContentManagerCvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV7managerAA14ContentManagerCvM",
+                "mangledName": "$s14App_Links_Demo7WebViewV7managerAA14ContentManagerCvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$manager",
+            "printedName": "$manager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Wrapper",
+                "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>.Wrapper",
+                "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV8$manager7SwiftUI14ObservedObjectV7WrapperVyAA14ContentManagerC_Gvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV8$manager7SwiftUI14ObservedObjectV7WrapperVyAA14ContentManagerC_Gvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Wrapper",
+                    "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>.Wrapper",
+                    "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV8$manager7SwiftUI14ObservedObjectV7WrapperVyAA14ContentManagerC_Gvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV8$manager7SwiftUI14ObservedObjectV7WrapperVyAA14ContentManagerC_Gvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV3url10Foundation3URLVvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV3url10Foundation3URLVvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV3url10Foundation3URLVvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV3url10Foundation3URLVvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV3url10Foundation3URLVvs",
+                "mangledName": "$s14App_Links_Demo7WebViewV3url10Foundation3URLVvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV3url10Foundation3URLVvM",
+                "mangledName": "$s14App_Links_Demo7WebViewV3url10Foundation3URLVvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "localStorage",
+            "printedName": "localStorage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV12localStorageSSvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV12localStorageSSvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV12localStorageSSvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV12localStorageSSvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV12localStorageSSvs",
+                "mangledName": "$s14App_Links_Demo7WebViewV12localStorageSSvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV12localStorageSSvM",
+                "mangledName": "$s14App_Links_Demo7WebViewV12localStorageSSvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$localStorage",
+            "printedName": "$localStorage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV13$localStorage7SwiftUI7BindingVySSGvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV13$localStorage7SwiftUI7BindingVySSGvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV13$localStorage7SwiftUI7BindingVySSGvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV13$localStorage7SwiftUI7BindingVySSGvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasSentDeviceData",
+            "printedName": "hasSentDeviceData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV17hasSentDeviceDataSbvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV17hasSentDeviceDataSbvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV17hasSentDeviceDataSbvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV17hasSentDeviceDataSbvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV17hasSentDeviceDataSbvs",
+                "mangledName": "$s14App_Links_Demo7WebViewV17hasSentDeviceDataSbvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV17hasSentDeviceDataSbvM",
+                "mangledName": "$s14App_Links_Demo7WebViewV17hasSentDeviceDataSbvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$hasSentDeviceData",
+            "printedName": "$hasSentDeviceData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo7WebViewV18$hasSentDeviceData7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s14App_Links_Demo7WebViewV18$hasSentDeviceData7SwiftUI7BindingVySbGvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo7WebViewV18$hasSentDeviceData7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s14App_Links_Demo7WebViewV18$hasSentDeviceData7SwiftUI7BindingVySbGvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:localStorage:hasSentDeviceData:manager:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WebView",
+                "printedName": "App_Links_Demo.WebView",
+                "usr": "s:14App_Links_Demo7WebViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentManager",
+                "printedName": "App_Links_Demo.ContentManager",
+                "hasDefaultArg": true,
+                "usr": "s:14App_Links_Demo14ContentManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo7WebViewV3url12localStorage17hasSentDeviceData7managerAC10Foundation3URLV_7SwiftUI7BindingVySSGAMySbGAA14ContentManagerCtcfc",
+            "mangledName": "$s14App_Links_Demo7WebViewV3url12localStorage17hasSentDeviceData7managerAC10Foundation3URLV_7SwiftUI7BindingVySSGAMySbGAA14ContentManagerCtcfc",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<App_Links_Demo.WebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebView",
+                    "printedName": "App_Links_Demo.WebView",
+                    "usr": "s:14App_Links_Demo7WebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo7WebViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s14App_Links_Demo7WebViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<App_Links_Demo.WebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebView",
+                    "printedName": "App_Links_Demo.WebView",
+                    "usr": "s:14App_Links_Demo7WebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo7WebViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s14App_Links_Demo7WebViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "App_Links_Demo.WebView.Coordinator",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo7WebViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s14App_Links_Demo7WebViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "localStorage",
+                "printedName": "localStorage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvp",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvp",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.String>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvg",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvg",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.String>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvs",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvs",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvM",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC12localStorage7SwiftUI7BindingVySSGvM",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "timer",
+                "printedName": "timer",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Timer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Timer",
+                        "printedName": "Foundation.Timer",
+                        "usr": "c:objc(cs)NSTimer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvp",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvp",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Timer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Timer",
+                            "printedName": "Foundation.Timer",
+                            "usr": "c:objc(cs)NSTimer"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvg",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvg",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Timer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Timer",
+                            "printedName": "Foundation.Timer",
+                            "usr": "c:objc(cs)NSTimer"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvs",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvs",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvM",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC5timerSo7NSTimerCSgvM",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "elapsed",
+                "printedName": "elapsed",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvp",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvp",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvg",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvg",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvs",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvs",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvM",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7elapsedSfvM",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "hasSentDeviceData",
+                "printedName": "hasSentDeviceData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvp",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvp",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvg",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvg",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Binding",
+                        "printedName": "SwiftUI.Binding<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI7BindingV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvs",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvs",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvM",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC17hasSentDeviceData7SwiftUI7BindingVySbGvM",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "manager",
+                "printedName": "manager",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservedObject",
+                    "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentManager",
+                        "printedName": "App_Links_Demo.ContentManager",
+                        "usr": "s:14App_Links_Demo14ContentManagerC"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14ObservedObjectV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvp",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvp",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObservedObject",
+                        "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentManager",
+                            "printedName": "App_Links_Demo.ContentManager",
+                            "usr": "s:14App_Links_Demo14ContentManagerC"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14ObservedObjectV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvg",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvg",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ObservedObject",
+                        "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ContentManager",
+                            "printedName": "App_Links_Demo.ContentManager",
+                            "usr": "s:14App_Links_Demo14ContentManagerC"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI14ObservedObjectV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvs",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvs",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvM",
+                    "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC7manager7SwiftUI14ObservedObjectVyAA14ContentManagerCGvM",
+                    "moduleName": "App_Links_Demo",
+                    "implicit": true,
+                    "isOpen": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(localStorage:manager:hasSentDeviceData:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "App_Links_Demo.WebView.Coordinator",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservedObject",
+                    "printedName": "SwiftUI.ObservedObject<App_Links_Demo.ContentManager>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentManager",
+                        "printedName": "App_Links_Demo.ContentManager",
+                        "usr": "s:14App_Links_Demo14ContentManagerC"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14ObservedObjectV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC12localStorage7manager17hasSentDeviceDataAE7SwiftUI7BindingVySSG_AI14ObservedObjectVyAA14ContentManagerCGAKySbGtcfc",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC12localStorage7manager17hasSentDeviceDataAE7SwiftUI7BindingVySSG_AI14ObservedObjectVyAA14ContentManagerCGAKySbGtcfc",
+                "moduleName": "App_Links_Demo",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:didFinish:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKNavigation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigation",
+                        "printedName": "WebKit.WKNavigation",
+                        "usr": "c:objc(cs)WKNavigation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+                "moduleName": "App_Links_Demo",
+                "isOpen": true,
+                "objc_name": "webView:didFinishNavigation:",
+                "declAttributes": [
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "App_Links_Demo.WebView.Coordinator",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14App_Links_Demo7WebViewV11CoordinatorCAEycfc",
+                "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorCAEycfc",
+                "moduleName": "App_Links_Demo",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC",
+            "mangledName": "$s14App_Links_Demo7WebViewV11CoordinatorC",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14App_Links_Demo7WebViewV",
+        "mangledName": "$s14App_Links_Demo7WebViewV",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "App_Links_Demo.WebView.Coordinator",
+                    "usr": "s:14App_Links_Demo7WebViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentManager",
+        "printedName": "ContentManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContentManager",
+                "printedName": "App_Links_Demo.ContentManager",
+                "usr": "s:14App_Links_Demo14ContentManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC6sharedACvpZ",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC6sharedACvpZ",
+            "moduleName": "App_Links_Demo",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentManager",
+                    "printedName": "App_Links_Demo.ContentManager",
+                    "usr": "s:14App_Links_Demo14ContentManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC6sharedACvgZ",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC6sharedACvgZ",
+                "moduleName": "App_Links_Demo",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device_uuid",
+            "printedName": "device_uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC11device_uuidSSSgvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC11device_uuidSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11device_uuidSSSgvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11device_uuidSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11device_uuidSSSgvs",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11device_uuidSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11device_uuidSSSgvM",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11device_uuidSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$device_uuid",
+            "printedName": "$device_uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_GvM",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC12$device_uuid7Combine9PublishedV9PublisherVySSSg_GvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceName",
+            "printedName": "deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC10deviceNameSSSgvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC10deviceNameSSSgvp",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC10deviceNameSSSgvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC10deviceNameSSSgvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC10deviceNameSSSgvs",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC10deviceNameSSSgvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC10deviceNameSSSgvM",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC10deviceNameSSSgvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$deviceName",
+            "printedName": "$deviceName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.String>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_Gvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_GvM",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11$deviceName7Combine9PublishedV9PublisherVySSSg_GvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstLaunch",
+            "printedName": "firstLaunch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC11firstLaunchSbvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC11firstLaunchSbvp",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11firstLaunchSbvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11firstLaunchSbvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11firstLaunchSbvs",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11firstLaunchSbvs",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC11firstLaunchSbvM",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC11firstLaunchSbvM",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$firstLaunch",
+            "printedName": "$firstLaunch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC12$firstLaunch7SwiftUI7BindingVySbGvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC12$firstLaunch7SwiftUI7BindingVySbGvp",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC12$firstLaunch7SwiftUI7BindingVySbGvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC12$firstLaunch7SwiftUI7BindingVySbGvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiURL",
+            "printedName": "apiURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14App_Links_Demo14ContentManagerC6apiURLSSvp",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC6apiURLSSvp",
+            "moduleName": "App_Links_Demo",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14App_Links_Demo14ContentManagerC6apiURLSSvg",
+                "mangledName": "$s14App_Links_Demo14ContentManagerC6apiURLSSvg",
+                "moduleName": "App_Links_Demo",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceCode",
+            "printedName": "getDeviceCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo14ContentManagerC13getDeviceCodeyyF",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC13getDeviceCodeyyF",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendDeviceData",
+            "printedName": "sendDeviceData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo14ContentManagerC14sendDeviceDatayyF",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC14sendDeviceDatayyF",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveDefferedDeepLinks",
+            "printedName": "retrieveDefferedDeepLinks()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo14ContentManagerC020retrieveDefferedDeepB0yyF",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC020retrieveDefferedDeepB0yyF",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveShortURLtoFullURL",
+            "printedName": "resolveShortURLtoFullURL(shortUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14App_Links_Demo14ContentManagerC24resolveShortURLtoFullURL8shortUrlySS_tF",
+            "mangledName": "$s14App_Links_Demo14ContentManagerC24resolveShortURLtoFullURL8shortUrlySS_tF",
+            "moduleName": "App_Links_Demo",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContentManager",
+                "printedName": "App_Links_Demo.ContentManager",
+                "usr": "s:14App_Links_Demo14ContentManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14App_Links_Demo14ContentManagerCACycfc",
+            "mangledName": "$s14App_Links_Demo14ContentManagerCACycfc",
+            "moduleName": "App_Links_Demo",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14App_Links_Demo14ContentManagerC",
+        "mangledName": "$s14App_Links_Demo14ContentManagerC",
+        "moduleName": "App_Links_Demo",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "App_Links_Demo",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIUserInterfaceIdiom",
+        "printedName": "UIUserInterfaceIdiom",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "product",
+            "printedName": "product",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20UIUserInterfaceIdiomV14App_Links_DemoE7productSSvp",
+            "mangledName": "$sSo20UIUserInterfaceIdiomV14App_Links_DemoE7productSSvp",
+            "moduleName": "App_Links_Demo",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20UIUserInterfaceIdiomV14App_Links_DemoE7productSSvg",
+                "mangledName": "$sSo20UIUserInterfaceIdiomV14App_Links_DemoE7productSSvg",
+                "moduleName": "App_Links_Demo",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@UIUserInterfaceIdiom",
+        "moduleName": "UIKit",
+        "objc_name": "UIUserInterfaceIdiom",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "SynthesizedProtocol",
+          "Sendable",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "Int",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/prathamesh-cdi\/Desktop\/App-Links-Demo\/App-Links-Demo\/CustomWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1310,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/prathamesh-cdi\/Desktop\/App-Links-Demo\/App-Links-Demo\/Helper\/ContentManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/prathamesh-cdi\/Desktop\/App-Links-Demo\/App-Links-Demo\/Helper\/ContentManager.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 14,
+      "value": "\"FIRST_LAUNCH\""
+    },
+    {
+      "filePath": "\/Users\/prathamesh-cdi\/Desktop\/App-Links-Demo\/App-Links-Demo\/Helper\/ContentManager.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 59,
+      "value": "\"https:\/\/profitapp.trycleansify.com\/app\/api\/v1\/device_ping\""
+    }
+  ]
+}
