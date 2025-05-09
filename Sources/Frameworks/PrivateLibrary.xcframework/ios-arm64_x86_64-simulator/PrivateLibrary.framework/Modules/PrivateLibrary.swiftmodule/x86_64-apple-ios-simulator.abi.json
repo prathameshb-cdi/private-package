@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PrivateLibrary",
+    "printedName": "PrivateLibrary",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Hello",
+        "printedName": "Hello",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Hello",
+                "printedName": "PrivateLibrary.Hello",
+                "usr": "s:14PrivateLibrary5HelloC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14PrivateLibrary5HelloCACycfc",
+            "mangledName": "$s14PrivateLibrary5HelloCACycfc",
+            "moduleName": "PrivateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printHello",
+            "printedName": "printHello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14PrivateLibrary5HelloC05printC0SSyF",
+            "mangledName": "$s14PrivateLibrary5HelloC05printC0SSyF",
+            "moduleName": "PrivateLibrary",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14PrivateLibrary5HelloC",
+        "mangledName": "$s14PrivateLibrary5HelloC",
+        "moduleName": "PrivateLibrary",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
