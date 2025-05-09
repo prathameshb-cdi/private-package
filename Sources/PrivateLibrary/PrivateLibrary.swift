@@ -8,4 +8,10 @@ public class HelloWorld: Hello {
     public override init() {
         
     }
+    
+    public override func printHello() -> String {
+        
+        print("Hello from me")
+        return "Hello"
+    }
 }
