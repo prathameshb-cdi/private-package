@@ -5,6 +5,8 @@ import TestFramework
 
 public class HelloWorld {
     
+    public init() {}
+    
     public let hello = Hello()
 
 }
