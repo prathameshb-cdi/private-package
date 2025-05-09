@@ -15,8 +15,18 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "PrivateLibrary"),
-        .binaryTarget(name: "TestFramework", path: "./Sources/PrivateLibrary/TestFramework.xcframework"),
+            name: "PrivateLibrary",
+            dependencies: [
+                "TestFramework"
+            ],
+            publicHeadersPath: "."
+        ),
+        
+        .binaryTarget(
+            name: "TestFramework",
+            path: "./Sources/PrivateLibrary/TestFramework.xcframework"
+        ),
+        
         .testTarget(
             name: "PrivateLibraryTests",
             dependencies: ["PrivateLibrary"]
