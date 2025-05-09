@@ -9,9 +9,4 @@ public class HelloWorld: Hello {
         
     }
     
-    public override func printHello() -> String {
-        
-        print("Hello from me")
-        return "Hello"
-    }
 }

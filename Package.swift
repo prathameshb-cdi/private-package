@@ -20,7 +20,7 @@ let package = Package(
                 "SimpleFramework"
             ]
         ),
-        .target(
+        .binaryTarget(
             name: "SimpleFramework",
             path: "./Sources/Frameworks/SimpleFramework.xcframework"
         ),
