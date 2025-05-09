@@ -17,14 +17,13 @@ let package = Package(
         .target(
             name: "PrivateLibrary",
             dependencies: [
-                "TestFramework"
+                "SimpleFramework"
             ]
         ),
-        .binaryTarget(
-            name: "TestFramework",
-            path: "./Sources/Frameworks/TestFramework.xcframework"
+        .target(
+            name: "SimpleFramework",
+            path: "./Sources/Frameworks/SimpleFramework.xcframework"
         ),
-        
         .testTarget(
             name: "PrivateLibraryTests",
             dependencies: ["PrivateLibrary"]

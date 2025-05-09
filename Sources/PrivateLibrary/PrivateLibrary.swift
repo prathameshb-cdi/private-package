@@ -1,12 +1,9 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-import TestFramework
+import SimpleFramework
 
-public class HelloWorld {
-    
-    public init() {}
-    
-    public let hello = Hello()
 
+public class HelloWorld: Hello {
+    
 }
