@@ -5,8 +5,4 @@ import SimpleFramework
 
 public class HelloWorld: Hello {
     
-    public override init() {
-        
-    }
-    
 }
